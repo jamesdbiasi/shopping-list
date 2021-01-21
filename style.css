@@ -1,29 +1,42 @@
 .done {
   text-decoration: line-through;
+   text-decoration-thickness: 20%;
 }
 
 .container {
+  margin-top: 5vw;
   text-align: center; 
 }
 
+#inputEnter {
+  margin-top: 2rem;
+}
+
 ul {
-  margin-left: 30vw;
-  margin-right: 30vw;
+  margin-left: 38vw;
+  margin-right: 38vw;
   list-style-type: none;
 }
 
 #enter {
-  padding-right: 20px; 
-  padding-left: 20px;
-  margin-left: 10px;
+  padding-right: 2em; 
+  padding-left: 2em;
+  margin-left: 2em;
 }
 
 li {
+  margin-top: 1em;
   display: grid;
   grid-template-columns: 3fr 1fr 1fr;
+  grid-gap: 1em;
 } 
 
-.btn {
-  margin: 10px;
-}
 
+span {
+  display: flex;
+  align-items: center;
+  font-size: 170%;
+  max-width: 100% 
+  min-width: 0; 
+  overflow: auto;
+}
