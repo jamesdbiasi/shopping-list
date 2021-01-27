@@ -13,9 +13,16 @@
 }
 
 ul {
-  margin-left: 38vw;
-  margin-right: 38vw;
+  margin-left: 30vw;
+  margin-right: 30vw;
   list-style-type: none;
+}
+
+@media screen and (max-width: 600px) {
+  ul {
+    margin: 0 10vw;
+    list-style-type:none;
+  }
 }
 
 #enter {
@@ -36,7 +43,7 @@ span {
   display: flex;
   align-items: center;
   font-size: 170%;
-  max-width: 100% 
-  min-width: 0; 
+  max-width: 100%; 
+  min-width: 0%;
   overflow: auto;
 }
